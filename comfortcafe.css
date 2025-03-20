@@ -1,0 +1,43 @@
+@keyframes tableAnimate {
+    0%{ background-color: aqua;}
+    25%{background-color: skyblue;}
+    50%{background-color: aquamarine;}
+    75%{background-color: green;}
+    100%{background-color: greenyellow;}
+}
+@keyframes bodyAnimate {
+    0%{ background: rgb(0, 255, 115);}
+    25%{background: skyblue;}
+    50%{background: aquamarine;}
+    75%{background: green;}
+    100%{background: greenyellow;}
+}
+body{
+     background: linear-gradient(45deg, rgb(255, 0, 128),red);
+    animation: bodyAnimate 12s alternate infinite;
+}
+#menuTable{
+    background: linear-gradient(45deg, green,yellowgreen,orange,aqua);
+    animation: tableAnimate  6s alternate infinite;
+    place-self: center;
+    size: 555px;
+
+}
+#tableHead{
+    background: black;
+    text-transform: capitalize;
+}
+.nice-table{
+    background: red;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+#mealTimes{
+    background-color: bisque;
+    color: blue;
+    font-style: bold;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
